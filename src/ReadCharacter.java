@@ -8,9 +8,9 @@ public class ReadCharacter {
             InputStream is = System.in;
 
             // Reads the next byte of data from the input stream
-            char c = (char) is.read();
+            char character = (char) is.read();
 
-            System.out.println("your character is " + c);
+            System.out.println("your character is " + character);
         }
         catch (IOException ioe) {
             System.out.println("Exception while reading input " + ioe);
